@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 75px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.opt {
+    display: flex;
+    flex-direction: row-reverse;
+
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo {
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 150px;
+}
+
+.signup {
+    margin-top: 5px;
+    display: flex;
+    margin-right: 50px;
+}
+
+.signup button {
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.signup i {
+    margin-top: 12px;
+    font-size: 20px;
+}
+
+.namemodal {
+    display: flex;
+    width: 500px;
+}
+
+.search-detail {
+    width: 440px;
+    height: 30px;
+    font-size: 15px;
+    border: 1px solid gainsboro;
+}
+
+.form-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    width: 31px;
+    height: 30px;
+}
+
+.form-icons i {
+    font-size: 15px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+    color: rgb(80, 80, 80);
+}
+.modal-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login {
+    margin-top: 5px;
+    display: flex;
+    font-size: 40px;
+    margin-right: 40px;
+}
+
+.login button {
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.login i {
+    margin-top: 12px;
+    font-size: 22px;
+}
+
+.nav-hero {
+    background-image: url(bg.png);
+    filter: brightness(90%);
+
+    background-size: cover;
+    height: 540px;
+    width: 1530px;
+    display: block;
+}
+
+.msg {
+    font-size: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 300px;
+
+
+}
+
+.msg p {
+    font-family: 'Mukta', sans-serif;
+    font-size: 50px;
+    filter: brightness(100%);
+
+    color: rgb(255, 255, 255);
+}
+
+.search-tab {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.search-input {
+    font-size: 20px;
+    width: 500px;
+    height: 41px;
+    border: none;
+    font-family: 'Mukta', sans-serif;
+}
+
+.mag {
+    font-size: auto;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mag button {
+    background-color: rgb(80, 80, 80);
+    height: 42px;
+}
+
+.city-head {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    margin-top: 30px;
+    color: rgb(41, 41, 41);
+}
+
+.city-head p {
+    font-family: 'Mukta', sans-serif;
+    font-size: 55px;
+}
+
+.circles {
+    display: flex;
+    margin-right: 250px;
+    margin-left: 250px;
+    justify-content: space-evenly;
+}
+
+.city {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 50%;
+    border: 1.5px solid black;
+}
+
+.city:hover {
+    opacity: 1;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0);
+}
+
+.bottom2 {
+    background-color: rgb(80, 80, 80);
+    height: 100px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.white {
+    font-family: 'Mukta', sans-serif;
+    color: white;
+}
